@@ -53,7 +53,7 @@ export default function Header(props: HeaderProps) {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Go to docs
+                Configurações
               </Link>
             </Grid>
             <Grid item>

@@ -13,8 +13,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="">
+        godeliver.com.br
       </Link>{' '}
       {new Date().getFullYear()}.
     </Typography>
@@ -24,8 +24,8 @@ function Copyright() {
 let theme = createTheme({
   palette: {
     primary: {
-      light: '#63ccff',
-      main: '#009be5',
+      light: '#cda000',
+      main: '#cda000',
       dark: '#006db3',
     },
   },
@@ -59,7 +59,7 @@ theme = {
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          backgroundColor: '#081627',
+          backgroundColor: '#cda000',
         },
       },
     },
@@ -120,7 +120,7 @@ theme = {
     MuiDivider: {
       styleOverrides: {
         root: {
-          backgroundColor: 'rgb(255,255,255,0.15)',
+          backgroundColor: '#000',
         },
       },
     },
@@ -128,7 +128,7 @@ theme = {
       styleOverrides: {
         root: {
           '&.Mui-selected': {
-            color: '#4fc3f7',
+            color: '#fff',
           },
         },
       },
